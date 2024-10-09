@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity", "BlazorMAUIIdentity\BlazorMAUIIdentity\BlazorMAUIIdentity.csproj", "{8792DE06-498A-49E9-A8A7-F9B460654749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMAUIIdentity", "BlazorMAUIIdentity\BlazorMAUIIdentity\BlazorMAUIIdentity.csproj", "{8792DE06-498A-49E9-A8A7-F9B460654749}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity.Client", "BlazorMAUIIdentity\BlazorMAUIIdentity.Client\BlazorMAUIIdentity.Client.csproj", "{1075FAF2-0BE8-4A68-B8D5-D2CB44AF0538}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMAUIIdentity.Client", "BlazorMAUIIdentity\BlazorMAUIIdentity.Client\BlazorMAUIIdentity.Client.csproj", "{1075FAF2-0BE8-4A68-B8D5-D2CB44AF0538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity.Mobile", "BlazorMAUIIdentity.Mobile\BlazorMAUIIdentity.Mobile.csproj", "{6204DA70-1C88-43B7-BC8E-A671BB669854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{1075FAF2-0BE8-4A68-B8D5-D2CB44AF0538}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1075FAF2-0BE8-4A68-B8D5-D2CB44AF0538}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1075FAF2-0BE8-4A68-B8D5-D2CB44AF0538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
