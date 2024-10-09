@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMAUIIdentity.Client",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity.Mobile", "BlazorMAUIIdentity.Mobile\BlazorMAUIIdentity.Mobile.csproj", "{6204DA70-1C88-43B7-BC8E-A671BB669854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity.SharedUI", "BlazorMAUIIdentity.SharedUI\BlazorMAUIIdentity.SharedUI.csproj", "{782DEA5E-F295-4BC3-A5B9-E495B5888216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorMAUIIdentity.Shared", "BlazorMAUIIdentity.Shared\BlazorMAUIIdentity.Shared.csproj", "{8407E729-7A78-4F4A-A144-B53FB9BE1DDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,14 @@ Global
 		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6204DA70-1C88-43B7-BC8E-A671BB669854}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{782DEA5E-F295-4BC3-A5B9-E495B5888216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782DEA5E-F295-4BC3-A5B9-E495B5888216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782DEA5E-F295-4BC3-A5B9-E495B5888216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782DEA5E-F295-4BC3-A5B9-E495B5888216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8407E729-7A78-4F4A-A144-B53FB9BE1DDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8407E729-7A78-4F4A-A144-B53FB9BE1DDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8407E729-7A78-4F4A-A144-B53FB9BE1DDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8407E729-7A78-4F4A-A144-B53FB9BE1DDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
